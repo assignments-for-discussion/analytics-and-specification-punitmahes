@@ -1,3 +1,6 @@
+function precise(x) {
+  return Number.parseFloat(x).toFixed(2);
+}
 
 function average(numbers) {
   if(numbers.length == 0) return NaN;
