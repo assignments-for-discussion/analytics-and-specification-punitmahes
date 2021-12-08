@@ -12,7 +12,7 @@ function average(numbers) {
         return p+c;
     }
 },0);
-  return (sum / (numbers.length - count)) || 0;
+  return precise(sum / (numbers.length - count)) || 0;
 }
 
 module.exports = {average};
