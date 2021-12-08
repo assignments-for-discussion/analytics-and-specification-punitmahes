@@ -1,6 +1,7 @@
 
 function average(numbers) {
-  return numbers.reduce((p, c)=> p + c, 0) / numbers.length || 0;
+  if(numbers.length == 0) return 0;
+  return numbers.reduce((p, c)=> p + c, 0) / numbers.length;
 }
 
 module.exports = {average};
